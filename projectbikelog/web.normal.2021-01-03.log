@@ -1,0 +1,40 @@
+21:27:27.555 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 25084 (started by fxs in D:\project\bike)
+21:27:27.556 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+21:27:27.556 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+21:27:30.270 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 3.037 seconds (JVM running for 4.373)
+21:32:32.177 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 32064 (started by fxs in D:\project\bike)
+21:32:32.178 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+21:32:32.189 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+21:32:34.718 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 2.825 seconds (JVM running for 3.901)
+21:32:35.541 [main] DEBUG c.f.b.u.d.U.insertSelective - ==>  Preparing: insert into user ( id ) values ( ? ) 
+21:32:35.569 [main] DEBUG c.f.b.u.d.U.insertSelective - ==> Parameters: 1(Long)
+22:12:07.850 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 29280 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+22:12:07.853 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+22:12:07.854 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+22:12:09.001 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 1.39 seconds (JVM running for 1.915)
+22:12:34.037 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+22:12:34.048 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 1(Long)
+22:12:34.056 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+22:13:03.541 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+22:13:03.542 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 1(Long)
+22:13:03.542 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+22:13:04.333 [http-nio-8888-exec-5] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+22:13:04.333 [http-nio-8888-exec-5] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 1(Long)
+22:13:04.334 [http-nio-8888-exec-5] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+22:13:30.395 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 29928 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+22:13:30.398 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+22:13:30.398 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+22:13:31.530 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 1.397 seconds (JVM running for 1.921)
+22:13:31.985 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+22:13:31.996 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 1(Long)
+22:13:32.004 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+22:13:49.988 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 29516 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+22:13:49.990 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+22:13:49.991 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+22:14:07.462 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 9368 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+22:14:07.465 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+22:14:07.465 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+22:14:08.574 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 1.356 seconds (JVM running for 1.865)
+22:14:16.811 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+22:14:16.821 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 1(Long)
+22:14:16.832 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1

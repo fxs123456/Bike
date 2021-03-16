@@ -1,0 +1,67 @@
+00:26:58.305 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 29464 (started by fxs in D:\project\bike)
+00:26:58.305 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:26:58.306 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:27:04.691 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 6.711 seconds (JVM running for 8.147)
+00:27:11.132 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where bike_no = ? AND status = 1 
+00:27:11.329 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==> Parameters: 28000002(Long)
+00:27:11.464 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - <==      Total: 0
+00:28:14.004 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 4704 (started by fxs in D:\project\bike)
+00:28:14.004 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:28:14.005 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:28:19.774 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 6.073 seconds (JVM running for 7.345)
+00:28:23.145 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where bike_no = ? AND status = 1 
+00:28:23.325 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==> Parameters: 28000002(Long)
+00:28:23.458 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - <==      Total: 0
+00:28:46.240 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 34544 (started by fxs in D:\project\bike)
+00:28:46.240 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:28:46.241 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:28:51.950 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 6.013 seconds (JVM running for 7.209)
+00:28:55.485 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where bike_no = ? AND status = 1 
+00:28:55.659 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==> Parameters: 28000002(Long)
+00:28:55.805 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - <==      Total: 1
+00:31:07.636 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 32948 (started by fxs in D:\project\bike)
+00:31:07.637 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:31:07.637 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:31:13.614 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 6.316 seconds (JVM running for 7.656)
+00:31:16.055 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where bike_no = ? AND status = 1 
+00:31:16.242 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==> Parameters: 28000002(Long)
+00:31:16.383 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - <==      Total: 1
+00:35:46.448 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 24612 (started by fxs in D:\project\bike)
+00:35:46.448 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:35:46.449 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:35:52.359 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 6.243 seconds (JVM running for 7.561)
+00:35:55.347 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where bike_no = ? AND status = 1 
+00:35:55.525 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==> Parameters: 28000002(Long)
+00:35:55.666 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - <==      Total: 1
+00:37:20.071 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 19252 (started by fxs in D:\project\bike)
+00:37:20.072 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:37:20.072 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:37:26.167 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 6.402 seconds (JVM running for 7.686)
+00:37:38.958 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where bike_no = ? AND status = 1 
+00:37:39.135 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==> Parameters: 28000002(Long)
+00:37:39.275 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - <==      Total: 1
+00:39:56.251 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 21372 (started by fxs in D:\project\bike)
+00:39:56.251 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:39:56.252 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:40:01.976 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 6.031 seconds (JVM running for 7.611)
+00:40:04.798 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where bike_no = ? AND status = 1 
+00:40:04.973 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==> Parameters: 28000002(Long)
+00:40:05.172 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - <==      Total: 1
+19:39:43.966 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 7384 (started by fxs in D:\project\bike)
+19:39:43.967 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+19:39:43.968 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+19:39:50.699 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 7.22 seconds (JVM running for 8.834)
+19:39:51.607 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where bike_no = ? AND status = 1 
+19:39:51.631 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==> Parameters: 28000002(Long)
+19:39:51.647 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - <==      Total: 0
+19:40:34.155 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 31788 (started by fxs in D:\project\bike)
+19:40:34.155 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+19:40:34.156 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+19:40:39.954 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 6.147 seconds (JVM running for 7.415)
+19:54:26.369 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 28908 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+19:54:26.372 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+19:54:26.372 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+19:54:30.835 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.9 seconds (JVM running for 5.704)
+19:54:45.094 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+19:55:16.709 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[BIKE_CLIENT]], trying to authenticate
+19:55:54.394 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[BIKE_CLIENT]]

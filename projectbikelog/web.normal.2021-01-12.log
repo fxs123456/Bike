@@ -1,0 +1,122 @@
+00:05:26.562 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 13876 (started by fxs in D:\project\bike)
+00:05:26.563 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:05:26.563 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:05:29.545 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 13876 (started by fxs in D:\project\bike)
+00:05:29.545 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:05:29.545 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:08:45.563 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 16228 (started by fxs in D:\project\bike)
+00:08:45.564 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:08:45.564 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:08:47.913 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 16228 (started by fxs in D:\project\bike)
+00:08:47.913 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:08:47.913 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:09:02.225 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 36064 (started by fxs in D:\project\bike)
+00:09:02.225 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:09:02.225 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:09:04.720 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 36064 (started by fxs in D:\project\bike)
+00:09:04.721 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:09:04.721 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:12:07.104 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 12368 (started by fxs in D:\project\bike)
+00:12:07.106 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:12:07.106 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:12:09.655 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 12368 (started by fxs in D:\project\bike)
+00:12:09.656 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:12:09.656 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:13:33.093 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 20840 (started by fxs in D:\project\bike)
+00:13:33.094 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:13:33.094 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:13:35.641 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 20840 (started by fxs in D:\project\bike)
+00:13:35.641 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:13:35.642 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:13:59.610 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 12088 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:13:59.612 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:13:59.613 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:20:12.526 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 30156 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:20:12.530 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:20:12.530 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:21:45.200 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 12796 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:21:45.204 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:21:45.204 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:24:39.500 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 11372 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:24:39.504 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:24:39.504 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:26:34.390 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 272 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:26:34.393 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:26:34.393 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:28:21.988 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 5020 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:28:21.992 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:28:21.993 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:28:53.784 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 22748 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:28:53.786 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:28:53.787 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:28:57.548 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.16 seconds (JVM running for 4.718)
+00:31:18.683 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 5484 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:31:18.687 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:31:18.687 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:31:22.416 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.13 seconds (JVM running for 4.689)
+00:32:37.363 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 8860 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:32:37.367 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:32:37.367 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:32:40.950 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.975 seconds (JVM running for 4.522)
+00:33:01.920 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 20976 (started by fxs in D:\project\bike)
+00:33:01.921 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:33:01.921 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:33:06.606 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 4.992 seconds (JVM running for 6.06)
+00:33:14.241 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 612 (started by fxs in D:\project\bike)
+00:33:14.241 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:33:14.241 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+00:33:18.885 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 4.927 seconds (JVM running for 6.026)
+00:33:19.580 [main] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+00:33:19.602 [main] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 1(Long)
+00:33:19.619 [main] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+00:33:19.621 [main] DEBUG c.f.b.r.d.R.selectRecordNotClosed - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where userid = ? AND status = 1 
+00:33:19.622 [main] DEBUG c.f.b.r.d.R.selectRecordNotClosed - ==> Parameters: 1(Long)
+00:33:19.625 [main] DEBUG c.f.b.r.d.R.selectRecordNotClosed - <==      Total: 0
+00:33:19.626 [main] DEBUG c.f.b.w.d.W.selectByUserId - ==>  Preparing: select id, userid, remain_sum, deposit from wallet where userid = ? 
+00:33:19.626 [main] DEBUG c.f.b.w.d.W.selectByUserId - ==> Parameters: 1(Long)
+00:33:19.629 [main] DEBUG c.f.b.w.d.W.selectByUserId - <==      Total: 1
+00:33:19.722 [main] DEBUG c.f.b.r.d.R.insertSelective - ==>  Preparing: insert into ride_record ( userid, record_no, bike_no, start_time ) values ( ?, ?, ?, ? ) 
+00:33:19.723 [main] DEBUG c.f.b.r.d.R.insertSelective - ==> Parameters: 1(Long), 16103827996951265745370(String), 28000002(Long), 2021-01-12 00:33:19.697(Timestamp)
+00:33:19.727 [main] DEBUG c.f.b.r.d.R.insertSelective - <==    Updates: 1
+00:38:15.210 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 30700 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:38:15.213 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:38:15.213 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:38:19.379 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.584 seconds (JVM running for 5.219)
+16:08:04.299 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 17380 (started by fxs in D:\project\bike)
+16:08:04.301 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:08:04.301 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+16:08:11.356 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 7.495 seconds (JVM running for 9.039)
+16:08:48.917 [main] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+16:08:49.090 [main] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 1(Long)
+16:08:49.237 [main] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+16:09:18.078 [main] DEBUG c.f.b.r.d.R.selectRecordNotClosed - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where userid = ? AND status = 1 
+16:09:18.079 [main] DEBUG c.f.b.r.d.R.selectRecordNotClosed - ==> Parameters: 1(Long)
+16:09:18.083 [main] DEBUG c.f.b.r.d.R.selectRecordNotClosed - <==      Total: 0
+16:09:26.705 [main] DEBUG c.f.b.w.d.W.selectByUserId - ==>  Preparing: select id, userid, remain_sum, deposit from wallet where userid = ? 
+16:09:26.705 [main] DEBUG c.f.b.w.d.W.selectByUserId - ==> Parameters: 1(Long)
+16:09:26.709 [main] DEBUG c.f.b.w.d.W.selectByUserId - <==      Total: 1
+16:10:40.044 [main] DEBUG c.f.b.r.d.R.insertSelective - ==>  Preparing: insert into ride_record ( userid, record_no, bike_no, start_time ) values ( ?, ?, ?, ? ) 
+16:10:40.049 [main] DEBUG c.f.b.r.d.R.insertSelective - ==> Parameters: 1(Long), 16104390100611736585536(String), 28000002(Long), 2021-01-12 16:10:21.585(Timestamp)
+16:10:40.062 [main] DEBUG c.f.b.r.d.R.insertSelective - <==    Updates: 1
+16:35:38.741 [main] INFO  c.f.b.BikeApplicationTests - Starting BikeApplicationTests using Java 14.0.2 on LAPTOP-8API67CI with PID 26704 (started by fxs in D:\project\bike)
+16:35:38.742 [main] DEBUG c.f.b.BikeApplicationTests - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:35:38.742 [main] INFO  c.f.b.BikeApplicationTests - The following profiles are active: dev
+16:35:44.475 [main] INFO  c.f.b.BikeApplicationTests - Started BikeApplicationTests in 6.032 seconds (JVM running for 7.338)
+16:35:54.486 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==>  Preparing: select id, userid, record_no, bike_no, start_time, end_time, ride_time, ride_cost, status from ride_record where bike_no = ? AND status = 1 
+16:35:54.665 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - ==> Parameters: 28000002(Long)
+16:35:54.808 [main] DEBUG c.f.b.r.d.R.selectBikeRecordOnGoing - <==      Total: 1
+16:36:19.729 [main] DEBUG c.f.b.b.d.B.selectByBikeNo - ==>  Preparing: select id, number, type, enable_flag from bike where number = ? 
+16:36:19.730 [main] DEBUG c.f.b.b.d.B.selectByBikeNo - ==> Parameters: 28000002(Long)
+16:36:19.733 [main] DEBUG c.f.b.b.d.B.selectByBikeNo - <==      Total: 1
+16:36:46.303 [main] DEBUG c.f.b.f.d.R.selectBikeTypeFee - ==>  Preparing: select id, min_unit, fee, bike_type from ride_fee where bike_type=? 
+16:36:46.305 [main] DEBUG c.f.b.f.d.R.selectBikeTypeFee - ==> Parameters: 1(Byte)
+16:36:46.312 [main] DEBUG c.f.b.f.d.R.selectBikeTypeFee - <==      Total: 1
+16:38:23.537 [main] DEBUG c.f.b.r.d.R.updateByPrimaryKeySelective - ==>  Preparing: update ride_record SET userid = ?, record_no = ?, bike_no = ?, start_time = ?, end_time = ?, ride_time = ?, ride_cost = ?, status = ? where id = ? 
+16:38:23.539 [main] DEBUG c.f.b.r.d.R.updateByPrimaryKeySelective - ==> Parameters: 1(Long), 16104390100611736585536(String), 28000002(Long), 2021-01-12 16:10:22.0(Timestamp), 2021-01-12 16:37:10.851(Timestamp), 26(Integer), 1.00(BigDecimal), 2(Byte), 4(Long)
+16:38:23.552 [main] DEBUG c.f.b.r.d.R.updateByPrimaryKeySelective - <==    Updates: 1
+16:38:26.428 [main] DEBUG c.f.b.w.d.W.selectByUserId - ==>  Preparing: select id, userid, remain_sum, deposit from wallet where userid = ? 
+16:38:26.429 [main] DEBUG c.f.b.w.d.W.selectByUserId - ==> Parameters: 1(Long)
+16:38:26.433 [main] DEBUG c.f.b.w.d.W.selectByUserId - <==      Total: 1
+16:38:32.560 [main] DEBUG c.f.b.w.d.W.updateByPrimaryKeySelective - ==>  Preparing: update wallet SET userid = ?, remain_sum = ?, deposit = ? where id = ? 
+16:38:32.561 [main] DEBUG c.f.b.w.d.W.updateByPrimaryKeySelective - ==> Parameters: 1(Long), 7.00(BigDecimal), 300.00(BigDecimal), 1(Long)
+16:38:32.563 [main] DEBUG c.f.b.w.d.W.updateByPrimaryKeySelective - <==    Updates: 1

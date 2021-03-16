@@ -1,0 +1,7 @@
+14:24:10.932 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 16216 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+14:24:10.938 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+14:24:10.938 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+14:24:17.303 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 7.045 seconds (JVM running for 9.457)
+14:24:38.759 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+14:26:21.767 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[BIKE_CLIENT]], trying to authenticate
+14:27:08.219 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[BIKE_CLIENT]]

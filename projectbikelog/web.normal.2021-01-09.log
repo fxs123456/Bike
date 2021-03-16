@@ -1,0 +1,774 @@
+01:19:33.601 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 20484 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+01:19:33.604 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+01:19:33.605 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+01:19:37.471 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.354 seconds (JVM running for 5.088)
+01:19:48.152 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+01:22:22.044 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_NONE]], trying to authenticate
+01:22:22.056 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Cleared security context due to exception
+com.fxs.bike.common.exception.BadCredentialException: unknown.error
+	at com.fxs.bike.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:35)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:518)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doAuthenticate(AbstractPreAuthenticatedProcessingFilter.java:191)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:133)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+01:22:22.131 [http-nio-8888-exec-1] INFO  c.f.b.u.s.UserServiceImpl - Sending verify code 6876 for phone 15549053122
+01:22:28.545 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 19864 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+01:22:28.549 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+01:22:28.550 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+01:22:31.973 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.892 seconds (JVM running for 4.578)
+01:22:48.030 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+01:24:33.038 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_NONE]], trying to authenticate
+01:24:33.039 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Cleared security context due to exception
+com.fxs.bike.common.exception.BadCredentialException: unknown.error
+	at com.fxs.bike.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:35)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:518)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doAuthenticate(AbstractPreAuthenticatedProcessingFilter.java:191)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:133)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+01:24:33.105 [http-nio-8888-exec-2] INFO  c.f.b.u.s.UserServiceImpl - Sending verify code 0682 for phone 15549053122
+01:24:56.728 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 7512 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+01:24:56.732 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+01:24:56.732 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+01:25:00.400 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.127 seconds (JVM running for 4.893)
+01:25:21.797 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+01:27:20.875 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_NONE]], trying to authenticate
+01:27:20.879 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Cleared security context due to exception
+com.fxs.bike.common.exception.BadCredentialException: unknown.error
+	at com.fxs.bike.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:35)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:518)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doAuthenticate(AbstractPreAuthenticatedProcessingFilter.java:191)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:133)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+01:27:21.181 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByMobile - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where mobile = ? 
+01:27:21.204 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByMobile - ==> Parameters: null
+01:27:21.219 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByMobile - <==      Total: 0
+01:27:21.248 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.insertSelective - ==>  Preparing: insert into user ( nickname, mobile ) values ( ?, ? ) 
+01:27:21.250 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.insertSelective - ==> Parameters: 15549053122(String), 15549053122(String)
+01:27:21.254 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.insertSelective - <==    Updates: 1
+01:27:39.538 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 24884 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+01:27:39.542 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+01:27:39.542 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+01:27:42.985 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.926 seconds (JVM running for 4.583)
+01:27:54.232 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+01:33:10.307 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_NONE]], trying to authenticate
+01:33:10.311 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Cleared security context due to exception
+com.fxs.bike.common.exception.BadCredentialException: unknown.error
+	at com.fxs.bike.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:35)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:518)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doAuthenticate(AbstractPreAuthenticatedProcessingFilter.java:191)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:133)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+01:33:10.396 [http-nio-8888-exec-2] INFO  c.f.b.u.s.UserServiceImpl - Sending verify code 3900 for phone 15549053122
+01:33:32.713 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 3612 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+01:33:32.717 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+01:33:32.717 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+01:33:36.289 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.03 seconds (JVM running for 4.775)
+01:33:41.137 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+01:34:23.663 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+01:34:23.665 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+01:34:23.729 [http-nio-8888-exec-2] INFO  c.f.b.u.s.UserServiceImpl - Sending verify code 2353 for phone 15549053122
+01:35:08.469 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 23428 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+01:35:08.472 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+01:35:08.472 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+01:35:12.042 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.042 seconds (JVM running for 4.75)
+01:35:23.009 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+01:36:22.901 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_NONE]], trying to authenticate
+01:36:22.905 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Cleared security context due to exception
+com.fxs.bike.common.exception.BadCredentialException: unknown.error
+	at com.fxs.bike.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:35)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:518)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doAuthenticate(AbstractPreAuthenticatedProcessingFilter.java:191)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:133)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+01:36:35.273 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 15516 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+01:36:35.276 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+01:36:35.277 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+01:36:38.733 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.941 seconds (JVM running for 4.647)
+01:36:43.899 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+01:36:55.223 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+01:37:09.373 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+01:37:35.052 [http-nio-8888-exec-1] INFO  c.f.b.u.s.UserServiceImpl - Sending verify code 1084 for phone 15549053122
+01:40:05.879 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 3208 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+01:40:05.883 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+01:40:05.883 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+01:40:09.597 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.165 seconds (JVM running for 4.85)
+01:40:39.423 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+01:40:41.527 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+01:40:42.326 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+01:40:46.126 [http-nio-8888-exec-2] INFO  c.f.b.u.s.UserServiceImpl - Sending verify code 1830 for phone 15549053122
+01:42:29.961 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 30208 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+01:42:29.964 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+01:42:29.964 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+01:42:33.452 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.93 seconds (JVM running for 4.719)
+01:42:41.031 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+01:42:44.573 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+01:42:45.101 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+01:42:48.695 [http-nio-8888-exec-3] INFO  c.f.b.u.s.UserServiceImpl - Sending verify code 6796 for phone 15549053122
+01:49:58.597 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 21328 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+01:49:58.599 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+01:49:58.599 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+01:50:02.075 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+01:50:28.069 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+01:50:29.882 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+01:50:30.394 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 32.242 seconds (JVM running for 33.002)
+01:50:55.456 [http-nio-8888-exec-2] INFO  c.f.b.u.s.UserServiceImpl - Sending verify code 2921 for phone 15549053122
+14:16:16.638 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 20440 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+14:16:16.641 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+14:16:16.641 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+14:16:20.245 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.081 seconds (JVM running for 4.844)
+14:16:46.471 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+14:17:03.343 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_NONE]], trying to authenticate
+14:17:03.346 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Cleared security context due to exception
+com.fxs.bike.common.exception.BadCredentialException: unknown.error
+	at com.fxs.bike.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:35)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:518)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doAuthenticate(AbstractPreAuthenticatedProcessingFilter.java:191)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:133)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+14:17:03.433 [http-nio-8888-exec-1] INFO  c.f.b.u.s.UserServiceImpl - Sending verify code 0787 for phone 15549053122
+14:17:22.117 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 31104 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+14:17:22.120 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+14:17:22.121 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+14:17:25.505 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.824 seconds (JVM running for 4.473)
+14:17:44.787 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+14:17:44.789 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_NONE]], trying to authenticate
+14:17:44.792 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Cleared security context due to exception
+com.fxs.bike.common.exception.BadCredentialException: unknown.error
+	at com.fxs.bike.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:35)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:518)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doAuthenticate(AbstractPreAuthenticatedProcessingFilter.java:191)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:133)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+14:17:47.229 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 12252 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+14:17:47.231 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+14:17:47.232 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+14:17:50.754 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.951 seconds (JVM running for 4.767)
+14:17:56.863 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+14:18:10.504 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_NONE]], trying to authenticate
+14:18:10.507 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Cleared security context due to exception
+com.fxs.bike.common.exception.BadCredentialException: unknown.error
+	at com.fxs.bike.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:35)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:518)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doAuthenticate(AbstractPreAuthenticatedProcessingFilter.java:191)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:133)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+14:18:19.271 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 18640 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+14:18:19.274 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+14:18:19.274 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+14:18:22.652 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.818 seconds (JVM running for 4.493)
+14:18:30.332 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+14:18:52.856 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_NONE]], trying to authenticate
+14:18:52.859 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Cleared security context due to exception
+com.fxs.bike.common.exception.BadCredentialException: unknown.error
+	at com.fxs.bike.security.RestAuthenticationProvider.authenticate(RestAuthenticationProvider.java:35)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:182)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:201)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter$AuthenticationManagerDelegator.authenticate(WebSecurityConfigurerAdapter.java:518)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doAuthenticate(AbstractPreAuthenticatedProcessingFilter.java:191)
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:133)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+14:19:11.144 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 32268 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+14:19:11.147 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+14:19:11.147 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+14:19:14.514 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.806 seconds (JVM running for 4.436)
+14:19:25.097 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+14:19:31.295 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+14:19:31.297 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+14:19:31.363 [http-nio-8888-exec-1] INFO  c.f.b.u.s.UserServiceImpl - Sending verify code 8572 for phone 15549053122
+16:13:27.546 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 8176 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+16:13:27.548 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:13:27.548 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+16:13:31.199 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.108 seconds (JVM running for 4.806)
+16:13:46.997 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 1196 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+16:13:46.999 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:13:47.000 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+16:13:50.380 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.844 seconds (JVM running for 4.561)
+16:13:58.415 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+16:14:33.537 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[BIKE_CLIENT]], trying to authenticate
+16:14:59.590 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[BIKE_CLIENT]]
+16:15:43.928 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+16:15:44.100 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 2(Long)
+16:15:44.237 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+16:19:57.654 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 27556 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+16:19:57.657 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:19:57.657 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+16:20:01.037 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.815 seconds (JVM running for 4.474)
+16:20:20.398 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+16:20:24.580 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[BIKE_CLIENT]], trying to authenticate
+16:20:25.252 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[BIKE_CLIENT]]
+16:24:43.411 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+16:24:43.434 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 2(Long)
+16:24:43.447 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+16:24:55.945 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 2392 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+16:24:55.949 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:24:55.949 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+16:24:59.450 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.984 seconds (JVM running for 4.658)
+16:25:07.042 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+16:25:09.522 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[BIKE_CLIENT]], trying to authenticate
+16:25:09.761 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[BIKE_CLIENT]]
+16:25:24.942 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+16:25:25.115 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 2(Long)
+16:25:25.255 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+16:27:35.239 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 29576 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+16:27:35.242 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:27:35.242 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+16:27:38.785 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.983 seconds (JVM running for 4.639)
+16:27:41.170 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+16:27:42.583 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[BIKE_CLIENT]], trying to authenticate
+16:27:42.827 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[BIKE_CLIENT]]
+16:27:51.648 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+16:27:51.824 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 2(Long)
+16:27:51.959 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+16:28:44.971 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - ==>  Preparing: update user SET nickname = ?, mobile = ?, head_img = ?, verify_flag = ?, enable_flag = ? where id = ? 
+16:28:44.973 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - ==> Parameters: fxs(String), 15549053122(String), Fl-aY66AhEbbB6tTl0SBhR2bQXci(String), 1(Byte), 1(Byte), 2(Long)
+16:28:44.988 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - <==    Updates: 1
+16:47:09.972 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 20704 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+16:47:09.974 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:47:09.974 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+16:47:13.374 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.837 seconds (JVM running for 4.512)
+16:47:20.152 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+16:47:22.738 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+16:47:23.390 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+16:47:46.565 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByMobile - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where mobile = ? 
+16:47:46.738 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByMobile - ==> Parameters: null
+16:47:46.881 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByMobile - <==      Total: 0
+16:47:46.955 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.insertSelective - ==>  Preparing: insert into user ( nickname, mobile ) values ( ?, ? ) 
+16:47:46.958 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.insertSelective - ==> Parameters: 15549053122(String), 15549053122(String)
+16:47:46.961 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.insertSelective - <==    Updates: 1
+16:48:50.399 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 8484 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+16:48:50.401 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:48:50.401 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+16:48:53.744 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.788 seconds (JVM running for 4.465)
+16:48:56.694 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+16:48:58.982 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+16:48:59.400 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+16:51:07.474 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByMobile - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where mobile = ? 
+16:51:07.644 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByMobile - ==> Parameters: null
+16:51:07.772 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByMobile - <==      Total: 0
+16:51:51.740 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.insertSelective - ==>  Preparing: insert into user ( nickname, mobile ) values ( ?, ? ) 
+16:51:51.743 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.insertSelective - ==> Parameters: 15549053122(String), 15549053122(String)
+16:51:51.781 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.insertSelective - <==    Updates: 1
+16:52:00.948 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 25324 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+16:52:00.952 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:52:00.952 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+16:52:04.494 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.983 seconds (JVM running for 4.657)
+16:52:07.983 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+16:52:09.761 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+16:52:10.068 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+16:52:19.154 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where mobile = ? 
+16:52:19.326 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - ==> Parameters: null
+16:52:19.457 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - <==      Total: 0
+16:54:22.242 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - ==>  Preparing: insert into user ( nickname, mobile ) values ( ?, ? ) 
+16:54:22.246 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - ==> Parameters: 15549053122(String), 15549053122(String)
+16:54:22.249 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - <==    Updates: 1
+16:54:25.473 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 18544 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+16:54:25.477 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:54:25.477 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+16:54:28.832 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.806 seconds (JVM running for 4.482)
+16:54:32.384 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+16:54:34.139 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+16:54:34.494 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+16:54:58.399 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where mobile = ? 
+16:54:58.569 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - ==> Parameters: null
+16:54:58.716 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - <==      Total: 0
+16:58:15.300 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - ==>  Preparing: insert into user ( nickname, mobile ) values ( ?, ? ) 
+16:58:15.303 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - ==> Parameters: 15549053122(String), 15549053122(String)
+16:58:15.307 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - <==    Updates: 1
+16:58:18.456 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 15256 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+16:58:18.459 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+16:58:18.459 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+16:58:21.867 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.835 seconds (JVM running for 4.504)
+16:58:39.929 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+16:58:41.514 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+16:58:42.102 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+16:59:04.732 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where mobile = ? 
+16:59:04.903 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - ==> Parameters: null
+16:59:05.049 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - <==      Total: 0
+17:00:36.824 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - ==>  Preparing: insert into user ( nickname, mobile ) values ( ?, ? ) 
+17:00:36.827 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - ==> Parameters: 15549053122(String), 15549053122(String)
+17:00:36.830 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - <==    Updates: 1
+17:00:46.249 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 26448 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+17:00:46.254 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+17:00:46.254 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+17:00:49.688 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 3.892 seconds (JVM running for 4.57)
+17:00:52.698 [http-nio-8888-exec-4] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+17:00:54.665 [http-nio-8888-exec-4] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+17:00:55.394 [http-nio-8888-exec-4] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+17:01:05.661 [http-nio-8888-exec-4] DEBUG c.f.b.u.d.U.selectByMobile - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where mobile = ? 
+17:01:05.842 [http-nio-8888-exec-4] DEBUG c.f.b.u.d.U.selectByMobile - ==> Parameters: 15549053122(String)
+17:01:05.983 [http-nio-8888-exec-4] DEBUG c.f.b.u.d.U.selectByMobile - <==      Total: 6
+17:08:06.480 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 32748 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+17:08:06.483 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+17:08:06.484 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+17:08:10.270 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.242 seconds (JVM running for 4.891)
+17:08:15.141 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+17:08:17.551 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[ROLE_SOME]], trying to authenticate
+17:08:17.995 [http-nio-8888-exec-1] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[ROLE_SOME]]
+17:08:30.337 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where mobile = ? 
+17:08:30.512 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - ==> Parameters: 15549053122(String)
+17:08:30.647 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - <==      Total: 1
+17:10:58.574 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 20400 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+17:10:58.577 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+17:10:58.577 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+17:11:02.461 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.321 seconds (JVM running for 5.106)
+17:11:27.806 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+17:11:35.331 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[BIKE_CLIENT]], trying to authenticate
+17:11:35.951 [http-nio-8888-exec-3] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[BIKE_CLIENT]]
+17:11:59.155 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+17:11:59.329 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 2(Long)
+17:11:59.465 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+17:12:25.578 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - ==>  Preparing: update user SET nickname = ?, mobile = ?, head_img = ?, verify_flag = ?, enable_flag = ? where id = ? 
+17:12:25.580 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - ==> Parameters: fxs(String), 15549053122(String), Fto5o-5ea0sNMlW_75VgGJCv2AcJ(String), 1(Byte), 1(Byte), 2(Long)
+17:12:25.595 [http-nio-8888-exec-3] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - <==    Updates: 1
+17:13:58.326 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 25024 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+17:13:58.329 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+17:13:58.329 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+17:14:02.158 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 4.307 seconds (JVM running for 5.026)
+17:14:07.171 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authenticating null
+17:14:10.217 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - preAuthenticatedPrincipal = RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[BIKE_CLIENT]], trying to authenticate
+17:14:10.565 [http-nio-8888-exec-2] DEBUG c.f.b.s.RestPreAuthenticatedProcessingFilter - Authentication success: RestAuthenticationToken [Principal=null, Credentials=[PROTECTED], Authenticated=false, Details=WebAuthenticationDetails [RemoteIpAddress=0:0:0:0:0:0:0:1, SessionId=null], Granted Authorities=[BIKE_CLIENT]]
+17:14:15.300 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where id = ? 
+17:14:15.474 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByPrimaryKey - ==> Parameters: 2(Long)
+17:14:15.621 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.selectByPrimaryKey - <==      Total: 1
+17:14:27.651 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - ==>  Preparing: update user SET nickname = ?, mobile = ?, head_img = ?, verify_flag = ?, enable_flag = ? where id = ? 
+17:14:27.652 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - ==> Parameters: fxs(String), 15549053122(String), Fl-aY66AhEbbB6tTl0SBhR2bQXci(String), 1(Byte), 1(Byte), 2(Long)
+17:14:27.665 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - <==    Updates: 1

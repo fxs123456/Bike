@@ -1,0 +1,28 @@
+14:08:24.671 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 23784 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+14:08:24.674 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+14:08:24.674 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+14:08:26.267 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 1.939 seconds (JVM running for 2.802)
+14:09:37.106 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - ==>  Preparing: select id, nickname, mobile, head_img, verify_flag, enable_flag from user where mobile = ? 
+14:09:37.269 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - ==> Parameters: null
+14:09:37.413 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.selectByMobile - <==      Total: 0
+14:09:52.849 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - ==>  Preparing: insert into user ( nickname, mobile ) values ( ?, ? ) 
+14:09:52.852 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - ==> Parameters: 15549053122(String), 15549053122(String)
+14:09:52.863 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.insertSelective - <==    Updates: 1
+18:41:51.492 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 6972 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+18:41:51.495 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+18:41:51.495 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+18:41:53.099 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 1.955 seconds (JVM running for 3.016)
+18:45:18.366 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - ==>  Preparing: update user SET nickname = ? where id = ? 
+18:45:18.666 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - ==> Parameters: fxs(String), 2(Long)
+18:45:18.712 [http-nio-8888-exec-1] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - <==    Updates: 1
+18:53:38.362 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 520 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+18:53:38.368 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+18:53:38.368 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+18:53:40.653 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 2.834 seconds (JVM running for 3.843)
+18:53:54.265 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - ==>  Preparing: update user SET nickname = ? where id = ? 
+18:53:54.293 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - ==> Parameters: fxs(String), 2(Long)
+18:53:54.334 [http-nio-8888-exec-2] DEBUG c.f.b.u.d.U.updateByPrimaryKeySelective - <==    Updates: 1
+20:22:46.697 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 12376 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+20:22:46.697 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+20:22:46.697 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+20:22:49.046 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 2.695 seconds (JVM running for 3.483)

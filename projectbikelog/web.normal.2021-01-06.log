@@ -1,0 +1,4 @@
+00:48:35.020 [main] INFO  c.f.b.BikeApplication - Starting BikeApplication using Java 14.0.2 on LAPTOP-8API67CI with PID 31524 (D:\project\bike\target\classes started by fxs in D:\project\bike)
+00:48:35.023 [main] DEBUG c.f.b.BikeApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+00:48:35.024 [main] INFO  c.f.b.BikeApplication - The following profiles are active: dev
+00:48:36.570 [main] INFO  c.f.b.BikeApplication - Started BikeApplication in 1.92 seconds (JVM running for 2.746)
